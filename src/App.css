@@ -1,33 +1,30 @@
-.App {
+
+.logo {
+  background: url('./img/logo.png') no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  height: 80px;
+  width: 250px;
+}
+.contactForm {
+  max-width: 600px;
+  width: calc(100% - 20px);
+  padding: 0 10px;
+  margin: 90px auto;
+}
+.errorMsg {
+  font-size: .8rem;
+  color: red;
+  transform: translateY(-34px);
+  margin-bottom: -24px;
+}
+input[type=text], input[type=email], select, textarea {
+  margin-bottom: 36px;
+}
+.thanksScreen {
+  max-width: 600px;
+  margin: 100px auto;
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
